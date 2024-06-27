@@ -1,0 +1,48 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mmcv
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/19/f97f0fd4d432113a232e75f965335be6b7bb6557ae9faf8051e9a012cadd/mmcv-2.1.0.tar.gz (471 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: addict in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmcv) (2.4.0)
+Requirement already satisfied: mmengine>=0.3.0 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmcv) (0.10.2)
+Requirement already satisfied: numpy in c:\users\zxs\appdata\roaming\python\python39\site-packages (from mmcv) (1.23.3)
+Requirement already satisfied: packaging in c:\users\zxs\appdata\roaming\python\python39\site-packages (from mmcv) (21.3)
+Requirement already satisfied: Pillow in c:\users\zxs\appdata\roaming\python\python39\site-packages (from mmcv) (9.2.0)
+Requirement already satisfied: pyyaml in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmcv) (6.0)
+Requirement already satisfied: yapf in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmcv) (0.40.2)
+Requirement already satisfied: regex in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmcv) (2023.12.25)
+Requirement already satisfied: rich in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmengine>=0.3.0->mmcv) (13.7.0)
+Requirement already satisfied: opencv-python>=3 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from mmengine>=0.3.0->mmcv) (4.6.0.66)
+Requirement already satisfied: termcolor in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmengine>=0.3.0->mmcv) (2.4.0)
+Requirement already satisfied: matplotlib in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from mmengine>=0.3.0->mmcv) (3.8.2)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from packaging->mmcv) (3.0.9)
+Requirement already satisfied: tomli>=2.0.1 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from yapf->mmcv) (2.0.1)
+Requirement already satisfied: platformdirs>=3.5.1 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from yapf->mmcv) (4.1.0)
+Requirement already satisfied: importlib-metadata>=6.6.0 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from yapf->mmcv) (7.0.1)
+Requirement already satisfied: zipp>=0.5 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from importlib-metadata>=6.6.0->yapf->mmcv) (3.11.0)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (1.0.5)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (4.38.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (1.4.4)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (0.11.0)
+Requirement already satisfied: importlib-resources>=3.2.0 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (6.1.1)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (2.17.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (3.0.0)
+Requirement already satisfied: mdurl~=0.1 in d:\anaconda\envs\py39_torch1.10_cu11.3\lib\site-packages (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv) (0.1.2)
+Requirement already satisfied: six>=1.5 in c:\users\zxs\appdata\roaming\python\python39\site-packages (from python-dateutil>=2.7->matplotlib->mmengine>=0.3.0->mmcv) (1.16.0)
+Building wheels for collected packages: mmcv
+  Building wheel for mmcv (setup.py): started
+  Building wheel for mmcv (setup.py): still running...
+  Building wheel for mmcv (setup.py): still running...
+  Building wheel for mmcv (setup.py): still running...
+  Building wheel for mmcv (setup.py): still running...
+  Building wheel for mmcv (setup.py): finished with status 'error'
+  Running setup.py clean for mmcv
+Failed to build mmcv
+Installing collected packages: mmcv
+  Running setup.py install for mmcv: started
+  Running setup.py install for mmcv: still running...
+  Running setup.py install for mmcv: still running...
+  Running setup.py install for mmcv: still running...
+  Running setup.py install for mmcv: still running...
+  Running setup.py install for mmcv: finished with status 'error'
